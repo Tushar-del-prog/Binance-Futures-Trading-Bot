@@ -42,14 +42,7 @@ binance-futures-bot/
 
 ---
 
-## ⚙️ Setup Instructions
 
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/your-username/binance-futures-bot.git
-cd binance-futures-bot
-```
 
 ### 2. Install Dependencies
 
@@ -62,54 +55,31 @@ pip install -r requirements.txt
 Open `config.py` and add your Binance Testnet API Key & Secret:
 
 ```python
-API_KEY = "your_api_key"
-API_SECRET = "your_api_secret"
+API_KEY = "UU4H7K3WqoGSx9ozkyGwh23q5LcMdLg2JFhgNab3oqo1oNmpTqPUX7WkR68lMKRx"
+API_SECRET = "C7CJfwpWAl7z4A4PL0P6UJhULLQgqNgjjUiHpVHZKne6Of1Pvgts7a7HwTZE87fZ"
 BASE_URL = "https://testnet.binancefuture.com"
 ```
 
 ---
 
-## ▶️ How to Run
-
-### Place a MARKET Order
-
-```bash
-python bot.py market
-```
-
-### Place a LIMIT Order
-
-```bash
-python bot.py limit
-```
-
----
 
 ## 📊 Logs
 
 All trade activity is stored inside the `logs/` folder:
 
 - `market_order.log` → MARKET order execution details
-- `limit_order.log` → LIMIT order execution details
 
 ---
 
-## ⚠️ Assumptions
 
-- Binance Futures Testnet account is used
-- API keys are valid and activated
-- Sufficient testnet balance available
-- Internet connection is stable
-
----
 
 ## 📌 Sample Output
 
 ```
 ===== ORDER SUCCESS =====
-Order ID : 123456789
-Status : FILLED
-Executed Qty : 0.001
+Order ID : 18949950744
+Status : NEW
+Executed Qty : 0.0000
 ```
 
 ---
